@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_ourteam_snapshots",
+  "info": {
+    "displayName": "snapshot"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "snapshot_stats": {
+      "type": "component",
+      "component": "ourteam.snapshot-stats",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

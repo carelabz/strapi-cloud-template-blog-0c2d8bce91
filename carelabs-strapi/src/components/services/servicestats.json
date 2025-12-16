@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_services_servicestats",
+  "info": {
+    "displayName": "servicestats"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

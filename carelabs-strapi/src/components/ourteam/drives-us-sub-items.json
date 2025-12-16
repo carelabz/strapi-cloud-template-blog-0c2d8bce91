@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ourteam_drives_us_sub_items",
+  "info": {
+    "displayName": "Drives-Us-subItems"
+  },
+  "options": {},
+  "attributes": {
+    "points": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

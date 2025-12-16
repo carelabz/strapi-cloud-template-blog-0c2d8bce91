@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ourteam_milestones",
+  "info": {
+    "displayName": "Milestones"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Milestones_Items": {
+      "type": "component",
+      "component": "ourteam.milestones-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ourteam_where_you_works",
+  "info": {
+    "displayName": "Where_you_work"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "viewText": {
+      "type": "string"
+    },
+    "viewLink": {
+      "type": "string"
+    },
+    "Where_you_work_Items": {
+      "type": "component",
+      "component": "ourteam.where-you-work-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

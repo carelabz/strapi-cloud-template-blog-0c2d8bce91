@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contact_before_you_reach_out_items",
+  "info": {
+    "displayName": "Before_you_reach_out_Item"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

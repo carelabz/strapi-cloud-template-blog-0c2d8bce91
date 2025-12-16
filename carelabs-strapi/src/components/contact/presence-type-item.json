@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_presence_type_items",
+  "info": {
+    "displayName": "presence_type_item"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "icon_color": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

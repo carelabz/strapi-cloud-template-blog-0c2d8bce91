@@ -1,0 +1,93 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "ContactPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "badgeicon": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "buttons": {
+      "type": "component",
+      "component": "contact.buttons",
+      "repeatable": true
+    },
+    "features": {
+      "type": "component",
+      "component": "contact.features",
+      "repeatable": true
+    },
+    "Choose_how_to_connect": {
+      "type": "component",
+      "component": "contact.choose-how-to-connect",
+      "repeatable": false
+    },
+    "Tell_us_about_project": {
+      "type": "component",
+      "component": "contact.tell-us-about-project",
+      "repeatable": false
+    },
+    "Where_we_support": {
+      "type": "component",
+      "component": "contact.where-we-support",
+      "repeatable": false
+    },
+    "Not_sure": {
+      "type": "component",
+      "component": "contact.not-sure",
+      "repeatable": false
+    },
+    "Local_expertise": {
+      "type": "component",
+      "component": "contact.local-expertise",
+      "repeatable": false
+    },
+    "Before_you_reach_out_heading": {
+      "type": "richtext"
+    },
+    "Before_you_reach_out_subheading": {
+      "type": "string"
+    },
+    "Before_you_reach_out_Item": {
+      "type": "component",
+      "component": "contact.before-you-reach-out-item",
+      "repeatable": true
+    },
+    "contact_cta": {
+      "type": "component",
+      "component": "contact.contact-cta",
+      "repeatable": true
+    },
+    "contact_page_seo": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

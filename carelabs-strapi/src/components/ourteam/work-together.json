@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ourteam_work_togethers",
+  "info": {
+    "displayName": "Work_Together"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Work_Together_Items": {
+      "type": "component",
+      "component": "ourteam.work-together-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

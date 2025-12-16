@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contact_services",
+  "info": {
+    "displayName": "services"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

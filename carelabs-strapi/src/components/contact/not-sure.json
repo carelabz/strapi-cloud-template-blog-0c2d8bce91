@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_contact_not_sures",
+  "info": {
+    "displayName": "Not_sure"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Not_sure_Item": {
+      "type": "component",
+      "component": "contact.not-sure-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

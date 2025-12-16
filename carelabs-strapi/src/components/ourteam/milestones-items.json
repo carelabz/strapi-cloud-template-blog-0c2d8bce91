@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_ourteam_milestones_items",
+  "info": {
+    "displayName": "Milestones_Items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

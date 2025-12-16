@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_insights_real_world_items",
+  "info": {
+    "displayName": "RealWorldItems"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "result": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

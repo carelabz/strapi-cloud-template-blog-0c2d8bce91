@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_footer_footer_menus",
+  "info": {
+    "displayName": "footer-menu"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "component": "footer.menu-link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

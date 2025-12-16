@@ -1,0 +1,100 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "homePage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slug": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "homebanner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::home.home"
+    },
+    "home_service": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::home-serivice.home-serivice"
+    },
+    "home_industry": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::home-industry.home-industry"
+    },
+    "home_our_client": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::home-our-client.home-our-client"
+    },
+    "home_compliance": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::home-compliance.home-compliance"
+    },
+    "worldwideimpact_section": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.worldwideimpact-section",
+      "repeatable": false
+    },
+    "testimonials_section": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.testimonials-section",
+      "repeatable": false
+    },
+    "home_insights": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "home.home-insights",
+      "repeatable": false
+    },
+    "homeseo": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo",
+      "repeatable": false
+    }
+  }
+}

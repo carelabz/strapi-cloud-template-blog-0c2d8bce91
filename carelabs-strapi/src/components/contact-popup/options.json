@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_contact_popup_options",
+  "info": {
+    "displayName": "options"
+  },
+  "options": {},
+  "attributes": {
+    "options_name": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

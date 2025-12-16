@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_worldwideimpact_sections",
+  "info": {
+    "displayName": "worldwideimpact_section"
+  },
+  "options": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "projectStat": {
+      "type": "component",
+      "component": "stats.project-stat",
+      "repeatable": true
+    },
+    "successStat": {
+      "type": "component",
+      "component": "stats.success-stat",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

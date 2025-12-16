@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_industry_clients",
+  "info": {
+    "displayName": "Clients"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Clients_name": {
+      "type": "component",
+      "component": "industry.clients-name",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

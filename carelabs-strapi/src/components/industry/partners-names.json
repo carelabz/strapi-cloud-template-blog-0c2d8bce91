@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_industry_partners_names",
+  "info": {
+    "displayName": "Partners_names"
+  },
+  "options": {},
+  "attributes": {
+    "countryName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

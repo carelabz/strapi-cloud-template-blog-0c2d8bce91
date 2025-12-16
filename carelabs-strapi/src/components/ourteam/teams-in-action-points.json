@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ourteam_teams_in_action_points",
+  "info": {
+    "displayName": "Teams_in_Action_Points"
+  },
+  "options": {},
+  "attributes": {
+    "points": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

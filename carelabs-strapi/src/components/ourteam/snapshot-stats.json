@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ourteam_snapshot_stats",
+  "info": {
+    "displayName": "snapshot-stats"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "stats": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

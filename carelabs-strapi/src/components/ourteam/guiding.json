@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ourteam_guidings",
+  "info": {
+    "displayName": "Guiding"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Guiding_Items": {
+      "type": "component",
+      "component": "ourteam.guiding-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

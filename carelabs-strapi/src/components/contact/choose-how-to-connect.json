@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_contact_choose_how_to_connects",
+  "info": {
+    "displayName": "Choose_how_to_connect"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "connect_items": {
+      "type": "component",
+      "component": "contact.connect-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

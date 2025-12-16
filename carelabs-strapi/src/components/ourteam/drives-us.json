@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ourteam_drives_uses",
+  "info": {
+    "displayName": "Drives-Us"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "Drives_Us_Items": {
+      "type": "component",
+      "component": "ourteam.drives-us-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

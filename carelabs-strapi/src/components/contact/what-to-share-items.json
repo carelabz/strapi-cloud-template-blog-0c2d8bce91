@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_contact_what_to_share_items",
+  "info": {
+    "displayName": "what_to_share_Items"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

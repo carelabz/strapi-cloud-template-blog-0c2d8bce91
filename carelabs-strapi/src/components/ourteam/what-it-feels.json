@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ourteam_what_it_feels",
+  "info": {
+    "displayName": "What_it_feels"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "What_it_feels_gallery": {
+      "type": "component",
+      "component": "ourteam.what-it-feels-gallery",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

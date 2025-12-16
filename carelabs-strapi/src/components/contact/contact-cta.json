@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_contact_contact_ctas",
+  "info": {
+    "displayName": "contact_cta"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

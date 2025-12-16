@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_services_why_matters",
+  "info": {
+    "displayName": "Why-Matters"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "ans1": {
+      "type": "string"
+    },
+    "ans2": {
+      "type": "string"
+    },
+    "ans3": {
+      "type": "string"
+    },
+    "ans4": {
+      "type": "string"
+    },
+    "title": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

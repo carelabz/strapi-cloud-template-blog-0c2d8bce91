@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ourteam_recognitions_item1s",
+  "info": {
+    "displayName": "Recognitions_Item1"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

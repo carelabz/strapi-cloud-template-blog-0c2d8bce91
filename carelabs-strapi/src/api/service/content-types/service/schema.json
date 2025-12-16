@@ -1,0 +1,173 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "badgeicon": {
+      "type": "string"
+    },
+    "mainheading1": {
+      "type": "string"
+    },
+    "mainheading2": {
+      "type": "string"
+    },
+    "maindesc": {
+      "type": "text"
+    },
+    "mainbutton1": {
+      "type": "string"
+    },
+    "mainbuttonlink1": {
+      "type": "string"
+    },
+    "mainbutton2": {
+      "type": "string"
+    },
+    "mainbuttonlink2": {
+      "type": "string"
+    },
+    "mainbutton3": {
+      "type": "string"
+    },
+    "mainbuttonlink3": {
+      "type": "string"
+    },
+    "mainimage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service_stats": {
+      "type": "component",
+      "component": "services.servicestats",
+      "repeatable": true
+    },
+    "service_features": {
+      "type": "component",
+      "component": "services.service-features",
+      "repeatable": true
+    },
+    "Why_Matters": {
+      "type": "component",
+      "component": "services.why-matters",
+      "repeatable": true
+    },
+    "WhatsIncludedtitle": {
+      "type": "richtext"
+    },
+    "WhatsIncludedsubtitle": {
+      "type": "text"
+    },
+    "whats_include_features": {
+      "type": "component",
+      "component": "services.whats-include-features",
+      "repeatable": true
+    },
+    "methodsTitle": {
+      "type": "string"
+    },
+    "methodsSubtitle": {
+      "type": "string"
+    },
+    "methodology": {
+      "type": "component",
+      "component": "services.methodology",
+      "repeatable": true
+    },
+    "sectorBenefitsTitle": {
+      "type": "string"
+    },
+    "sectorBenefitsSubtitle": {
+      "type": "text"
+    },
+    "sectorBenefits": {
+      "type": "component",
+      "component": "services.benefit-sector",
+      "repeatable": true
+    },
+    "resultsTitle": {
+      "type": "richtext"
+    },
+    "resultsSubtitle": {
+      "type": "text"
+    },
+    "resultsStat": {
+      "type": "component",
+      "component": "services.results-stat",
+      "repeatable": true
+    },
+    "resultName": {
+      "type": "component",
+      "component": "services.result-name",
+      "repeatable": true
+    },
+    "readyTitle": {
+      "type": "richtext"
+    },
+    "readySubtitle": {
+      "type": "text"
+    },
+    "readyButton1": {
+      "type": "string"
+    },
+    "readyButton1Link": {
+      "type": "string"
+    },
+    "readyButton2": {
+      "type": "string"
+    },
+    "readyButton2Link": {
+      "type": "string"
+    },
+    "relatedTitle": {
+      "type": "richtext"
+    },
+    "relatedSubtitle": {
+      "type": "text"
+    },
+    "relatedServices": {
+      "type": "component",
+      "component": "services.related-services",
+      "repeatable": true
+    },
+    "faqTitle": {
+      "type": "richtext"
+    },
+    "faqSubtitle": {
+      "type": "text"
+    },
+    "questions": {
+      "type": "component",
+      "component": "services.questions",
+      "repeatable": true
+    },
+    "technicalTitle": {
+      "type": "string"
+    },
+    "technicalItems": {
+      "type": "component",
+      "component": "services.technical-items",
+      "repeatable": true
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

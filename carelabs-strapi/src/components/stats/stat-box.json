@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_stats_stat_boxes",
+  "info": {
+    "displayName": "stat-box"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

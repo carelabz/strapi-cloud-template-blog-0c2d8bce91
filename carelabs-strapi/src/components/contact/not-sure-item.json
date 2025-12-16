@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_contact_not_sure_items",
+  "info": {
+    "displayName": "Not_sure_Item"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "Go_to_from_text": {
+      "type": "string"
+    },
+    "Go_to_from_link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

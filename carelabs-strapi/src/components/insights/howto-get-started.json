@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_insights_howto_get_starteds",
+  "info": {
+    "displayName": "HowtoGetStarted"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imagetext": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

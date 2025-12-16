@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_insights_why_traditional_maintenances",
+  "info": {
+    "displayName": "whyTraditionalMaintenance"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "richtext"
+    },
+    "WhyTraditionalItems": {
+      "type": "component",
+      "component": "insights.why-traditional-items",
+      "repeatable": true
+    },
+    "conclusion": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

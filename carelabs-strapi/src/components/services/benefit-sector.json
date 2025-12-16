@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_services_benefit_sectors",
+  "info": {
+    "displayName": "sectorBenefits"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "list1": {
+      "type": "text"
+    },
+    "list2": {
+      "type": "text"
+    },
+    "list3": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

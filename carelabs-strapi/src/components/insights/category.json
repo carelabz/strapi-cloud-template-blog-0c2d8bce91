@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_insights_categories",
+  "info": {
+    "displayName": "category"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

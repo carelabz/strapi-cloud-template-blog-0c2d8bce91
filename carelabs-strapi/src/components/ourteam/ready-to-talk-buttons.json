@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ourteam_ready_to_talk_buttons",
+  "info": {
+    "displayName": "Ready_to_Talk_buttons"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

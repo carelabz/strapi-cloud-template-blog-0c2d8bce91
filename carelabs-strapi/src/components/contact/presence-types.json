@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_presence_types",
+  "info": {
+    "displayName": "presence_types"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "presence_type_item": {
+      "type": "component",
+      "component": "contact.presence-type-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

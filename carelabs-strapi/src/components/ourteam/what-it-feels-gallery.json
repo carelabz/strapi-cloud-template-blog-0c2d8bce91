@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ourteam_what_it_feels_galleries",
+  "info": {
+    "displayName": "What_it_feels_gallery"
+  },
+  "options": {},
+  "attributes": {
+    "hovertext": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

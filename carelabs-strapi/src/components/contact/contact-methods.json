@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contact_contact_methods",
+  "info": {
+    "displayName": "contactMethods"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

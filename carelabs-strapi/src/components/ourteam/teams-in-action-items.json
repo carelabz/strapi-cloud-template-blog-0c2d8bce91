@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_ourteam_teams_in_action_items",
+  "info": {
+    "displayName": "Teams_in_Action_Items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Teams_in_Action_Points": {
+      "type": "component",
+      "component": "ourteam.teams-in-action-points",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

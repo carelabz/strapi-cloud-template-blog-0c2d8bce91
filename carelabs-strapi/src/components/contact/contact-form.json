@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_contact_contact_forms",
+  "info": {
+    "displayName": "contact_form"
+  },
+  "options": {},
+  "attributes": {
+    "contact_form_fields": {
+      "type": "component",
+      "component": "contact.contact-form-fields",
+      "repeatable": true
+    },
+    "typeOfHelpTitle": {
+      "type": "string"
+    },
+    "typeOfHelpOptions": {
+      "type": "component",
+      "component": "contact.type-of-help-options",
+      "repeatable": true
+    },
+    "servicesTitle": {
+      "type": "string"
+    },
+    "services": {
+      "type": "component",
+      "component": "contact.services",
+      "repeatable": true
+    },
+    "contactMethodTitle": {
+      "type": "string"
+    },
+    "contactMethods": {
+      "type": "component",
+      "component": "contact.contact-methods",
+      "repeatable": true
+    },
+    "submitbutton": {
+      "type": "string"
+    },
+    "reply_msg": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_contact_tell_us_about_projects",
+  "info": {
+    "displayName": "Tell_us_about_project"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "note": {
+      "type": "text"
+    },
+    "What_to_share_text": {
+      "type": "string"
+    },
+    "what_to_share_Items": {
+      "type": "component",
+      "component": "contact.what-to-share-items",
+      "repeatable": true
+    },
+    "contact_form": {
+      "type": "component",
+      "component": "contact.contact-form",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

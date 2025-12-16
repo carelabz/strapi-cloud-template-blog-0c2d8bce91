@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_insights_key_building_blocks",
+  "info": {
+    "displayName": "KeyBuildingBlocks"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "KeyBuildingBlocksItems": {
+      "type": "component",
+      "component": "insights.key-building-blocks-items",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imagetext": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_insights_challenges_items",
+  "info": {
+    "displayName": "ChallengesItems"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

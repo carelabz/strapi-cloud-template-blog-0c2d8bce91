@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_stats_success_stats",
+  "info": {
+    "displayName": "success-stat"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "value": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

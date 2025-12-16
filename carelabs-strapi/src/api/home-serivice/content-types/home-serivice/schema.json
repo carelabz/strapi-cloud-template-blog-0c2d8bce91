@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_serivices",
+  "info": {
+    "singularName": "home-serivice",
+    "pluralName": "home-serivices",
+    "displayName": "HomeService"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "badge": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "home_service_items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::home-service-item.home-service-item",
+      "mappedBy": "home_serivice"
+    }
+  }
+}

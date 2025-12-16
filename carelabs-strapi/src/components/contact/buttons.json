@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contact_buttons",
+  "info": {
+    "displayName": "buttons"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

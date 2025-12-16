@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ourteam_drives_us_items",
+  "info": {
+    "displayName": "Drives-Us-Items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "Drives_Us_subItems": {
+      "type": "component",
+      "component": "ourteam.drives-us-sub-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

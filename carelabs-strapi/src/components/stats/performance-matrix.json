@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_stats_performance_matrices",
+  "info": {
+    "displayName": "performance-matrix"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "stats": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

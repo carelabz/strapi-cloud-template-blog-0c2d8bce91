@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_insights_challenges",
+  "info": {
+    "displayName": "Challenges"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "introduction": {
+      "type": "text"
+    },
+    "ChallengesItems": {
+      "type": "component",
+      "component": "insights.challenges-items",
+      "repeatable": true
+    },
+    "conclusion": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

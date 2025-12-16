@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_new_new_items",
+  "info": {
+    "displayName": "new-item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "btn_text": {
+      "type": "string"
+    },
+    "btn_link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

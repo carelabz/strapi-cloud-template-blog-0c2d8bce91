@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_contact_contact_form_fields",
+  "info": {
+    "displayName": "contact_form_fields"
+  },
+  "options": {},
+  "attributes": {
+    "fieldname": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "errorMessage": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

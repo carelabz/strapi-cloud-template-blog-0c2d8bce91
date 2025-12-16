@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ourteam_where_you_work_countries",
+  "info": {
+    "displayName": "Where_you_work_countries"
+  },
+  "options": {},
+  "attributes": {
+    "country": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

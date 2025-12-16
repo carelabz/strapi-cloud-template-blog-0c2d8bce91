@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_popups",
+  "info": {
+    "singularName": "contact-popup",
+    "pluralName": "contact-popups",
+    "displayName": "ContactPopup"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "form_fields": {
+      "type": "component",
+      "component": "contact-popup.form-fields",
+      "repeatable": true
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "buttonlink": {
+      "type": "string"
+    }
+  }
+}

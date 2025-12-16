@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_submenus_service_items",
+  "info": {
+    "displayName": "serviceItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "featureheading": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "string"
+    },
+    "features": {
+      "type": "component",
+      "component": "features.feature-item",
+      "repeatable": true
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_insights_article_items",
+  "info": {
+    "displayName": "article-items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

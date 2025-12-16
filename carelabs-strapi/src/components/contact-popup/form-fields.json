@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_contact_popup_form_fields",
+  "info": {
+    "displayName": "form_fields"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "field_type": {
+      "type": "enumeration",
+      "enum": [
+        "input",
+        "textarea",
+        "select",
+        "phone"
+      ]
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "options": {
+      "type": "component",
+      "component": "contact-popup.options",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

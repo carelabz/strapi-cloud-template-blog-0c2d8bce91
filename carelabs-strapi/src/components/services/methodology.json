@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_services_methodologies",
+  "info": {
+    "displayName": "methodology"
+  },
+  "options": {},
+  "attributes": {
+    "Order": {
+      "type": "integer"
+    },
+    "OrderTitleText": {
+      "type": "string"
+    },
+    "OrderSubtitleText": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_services_technical_items",
+  "info": {
+    "displayName": "technicalItems"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "format": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_insights_real_worlds",
+  "info": {
+    "displayName": "RealWorld"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "RealWorldItems": {
+      "type": "component",
+      "component": "insights.real-world-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

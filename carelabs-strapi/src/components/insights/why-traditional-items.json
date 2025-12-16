@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_insights_why_traditional_items",
+  "info": {
+    "displayName": "WhyTraditionalItems"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

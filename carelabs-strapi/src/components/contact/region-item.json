@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contact_region_items",
+  "info": {
+    "displayName": "region-item"
+  },
+  "options": {},
+  "attributes": {
+    "region_name": {
+      "type": "string"
+    },
+    "map_embed_code": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_industry_partners",
+  "info": {
+    "displayName": "Partners"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Recenttitle": {
+      "type": "string"
+    },
+    "Partners_names": {
+      "type": "component",
+      "component": "industry.partners-names",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

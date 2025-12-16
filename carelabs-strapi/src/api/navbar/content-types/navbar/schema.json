@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "navbars",
+  "info": {
+    "singularName": "navbar",
+    "pluralName": "navbars",
+    "displayName": "navbar"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "items": {
+      "type": "component",
+      "component": "navbar.navbar-item",
+      "repeatable": true
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "buttonlink": {
+      "type": "string"
+    },
+    "regionSelector": {
+      "type": "string"
+    },
+    "regionTitle": {
+      "type": "string"
+    },
+    "viewText": {
+      "type": "string"
+    },
+    "regions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::region.region"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ourteam_work_together_items",
+  "info": {
+    "displayName": "Work_Together_Items"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_services_results_stats",
+  "info": {
+    "displayName": "resultsStat"
+  },
+  "options": {},
+  "attributes": {
+    "percentage": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

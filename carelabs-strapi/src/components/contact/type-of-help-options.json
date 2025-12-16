@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_type_of_help_options",
+  "info": {
+    "displayName": "typeOfHelpOptions"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "default": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

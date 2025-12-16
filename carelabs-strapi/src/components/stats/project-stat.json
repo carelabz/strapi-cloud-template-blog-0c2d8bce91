@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_stats_project_stats",
+  "info": {
+    "displayName": "project-stat"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "countryName": {
+      "type": "string"
+    },
+    "count": {
+      "type": "richtext"
+    },
+    "countryCount": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_local_expertise_items",
+  "info": {
+    "displayName": "Local_expertise_Item"
+  },
+  "options": {},
+  "attributes": {
+    "count": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

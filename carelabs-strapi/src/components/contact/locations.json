@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_contact_locations",
+  "info": {
+    "displayName": "locations"
+  },
+  "options": {},
+  "attributes": {
+    "location_name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "type_color": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

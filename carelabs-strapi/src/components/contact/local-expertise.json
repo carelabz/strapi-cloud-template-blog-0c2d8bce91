@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_contact_local_expertises",
+  "info": {
+    "displayName": "Local_expertise"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "Local_expertise_Item": {
+      "type": "component",
+      "component": "contact.local-expertise-item",
+      "repeatable": true
+    },
+    "Trusted_text": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "regions",
+  "info": {
+    "singularName": "region",
+    "pluralName": "regions",
+    "displayName": "Region"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "siteUrl": {
+      "type": "string"
+    },
+    "isDefault": {
+      "type": "boolean"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "language": {
+      "type": "string"
+    },
+    "language_value": {
+      "type": "string"
+    }
+  }
+}

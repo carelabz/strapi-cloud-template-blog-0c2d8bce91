@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_insights_what_ai_powered_predictives",
+  "info": {
+    "displayName": "WhatAI-PoweredPredictive"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imagetext": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

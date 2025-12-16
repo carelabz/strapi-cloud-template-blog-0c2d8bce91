@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ourteam_where_you_work_items",
+  "info": {
+    "displayName": "Where_you_work_Items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "Where_you_work_countries": {
+      "type": "component",
+      "component": "ourteam.where-you-work-countries",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

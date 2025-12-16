@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonials_sections",
+  "info": {
+    "singularName": "testimonials-section",
+    "pluralName": "testimonials-sections",
+    "displayName": "testimonials-section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "testimonials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::testimonial.testimonial"
+    }
+  }
+}

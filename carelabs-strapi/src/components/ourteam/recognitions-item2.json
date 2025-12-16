@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ourteam_recognitions_item2s",
+  "info": {
+    "displayName": "Recognitions_Item2"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "countryyear": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

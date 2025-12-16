@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_contact_connect_items",
+  "info": {
+    "displayName": "connect_items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "sharetext": {
+      "type": "string"
+    },
+    "sharelink": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

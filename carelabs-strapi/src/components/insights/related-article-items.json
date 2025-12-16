@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_insights_related_article_items",
+  "info": {
+    "displayName": "RelatedArticleItems"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "readtext": {
+      "type": "string"
+    },
+    "readicon": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

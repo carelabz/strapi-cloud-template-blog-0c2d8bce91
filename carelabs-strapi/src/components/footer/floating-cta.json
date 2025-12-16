@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_footer_floating_ctas",
+  "info": {
+    "displayName": "floating_cta"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "button1text": {
+      "type": "string"
+    },
+    "button1link": {
+      "type": "string"
+    },
+    "button2icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_insights_key_building_blocks_items",
+  "info": {
+    "displayName": "KeyBuildingBlocksItems"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  },
+  "config": {}
+}

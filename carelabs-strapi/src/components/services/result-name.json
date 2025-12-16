@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_services_result_names",
+  "info": {
+    "displayName": "resultName"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

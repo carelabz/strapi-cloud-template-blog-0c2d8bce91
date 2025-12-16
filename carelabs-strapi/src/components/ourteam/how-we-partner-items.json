@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ourteam_how_we_partner_items",
+  "info": {
+    "displayName": "How_We_Partner_Items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "step": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

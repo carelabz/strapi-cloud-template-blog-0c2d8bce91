@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ourteam_how_we_partners",
+  "info": {
+    "displayName": "How_We_Partner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "How_We_Partner_Items": {
+      "type": "component",
+      "component": "ourteam.how-we-partner-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

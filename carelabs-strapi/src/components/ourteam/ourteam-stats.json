@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ourteam_ourteam_stats",
+  "info": {
+    "displayName": "ourteam-stats"
+  },
+  "options": {},
+  "attributes": {
+    "stats": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_industry_key_industries",
+  "info": {
+    "displayName": "key_industries"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "highlight_text": {
+      "type": "string"
+    },
+    "highlight_color": {
+      "type": "string"
+    },
+    "key_features": {
+      "type": "component",
+      "component": "insights.key-features",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

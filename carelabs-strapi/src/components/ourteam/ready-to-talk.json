@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ourteam_ready_to_talks",
+  "info": {
+    "displayName": "Ready_to_Talk"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Ready_to_Talk_buttons": {
+      "type": "component",
+      "component": "ourteam.ready-to-talk-buttons",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

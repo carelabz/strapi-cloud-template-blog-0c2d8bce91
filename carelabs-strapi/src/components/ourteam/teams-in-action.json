@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ourteam_teams_in_actions",
+  "info": {
+    "displayName": "Teams_in_Action"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Teams_in_Action_Items": {
+      "type": "component",
+      "component": "ourteam.teams-in-action-items",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

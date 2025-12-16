@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_ourteam_recognitions",
+  "info": {
+    "displayName": "Recognitions"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "Recognitions_Item1": {
+      "type": "component",
+      "component": "ourteam.recognitions-item1",
+      "repeatable": true
+    },
+    "Recognitions_Item2": {
+      "type": "component",
+      "component": "ourteam.recognitions-item2",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

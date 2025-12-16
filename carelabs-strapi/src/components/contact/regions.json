@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contact_regions",
+  "info": {
+    "displayName": "regions"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "region_item": {
+      "type": "component",
+      "component": "contact.region-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

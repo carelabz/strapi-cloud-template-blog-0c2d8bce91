@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_industry_components_features",
+  "info": {
+    "displayName": "components_features"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

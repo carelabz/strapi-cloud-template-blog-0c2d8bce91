@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_contact_where_we_supports",
+  "info": {
+    "displayName": "Where_we_support"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "text"
+    },
+    "presence_types": {
+      "type": "component",
+      "component": "contact.presence-types",
+      "repeatable": false
+    },
+    "regions": {
+      "type": "component",
+      "component": "contact.regions",
+      "repeatable": false
+    },
+    "locations": {
+      "type": "component",
+      "component": "contact.locations",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
