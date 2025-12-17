@@ -4,7 +4,7 @@ import { MapPin, Shield, Zap } from 'lucide-react';
 import React from 'react'
 import { clientIcons } from "@/lib/clientIcons";
 
-const RegionClients = ({data}) => {
+const HomeClient = ({data}) => {
 
     if(!data)return null;
       const BadgeIcon =clientIcons[data.badgeicon.trim()];
@@ -99,4 +99,4 @@ const RegionClients = ({data}) => {
   )
 }
 
-export default RegionClients
+export default HomeClient

@@ -1314,6 +1314,7 @@ export interface ApiHomeHome extends Struct.CollectionTypeSchema {
   };
 }
 
+<<<<<<< HEAD
 export interface ApiInsightInsight extends Struct.SingleTypeSchema {
   collectionName: 'insights';
   info: {
@@ -1370,6 +1371,8 @@ export interface ApiInsightInsight extends Struct.SingleTypeSchema {
   };
 }
 
+=======
+>>>>>>> 413abb67b049dbf1ecffd746e12cc925c2add811
 export interface ApiInsightblogInsightblog extends Struct.CollectionTypeSchema {
   collectionName: 'insightblogs';
   info: {
@@ -1989,6 +1992,7 @@ export interface ApiTestimonialTestimonial extends Struct.CollectionTypeSchema {
   };
 }
 
+<<<<<<< HEAD
 export interface ApiTestimonialsSectionTestimonialsSection
   extends Struct.SingleTypeSchema {
   collectionName: 'testimonials_sections';
@@ -2057,6 +2061,8 @@ export interface ApiWorldwideImpactWorldwideImpact
   };
 }
 
+=======
+>>>>>>> 413abb67b049dbf1ecffd746e12cc925c2add811
 export interface PluginContentReleasesRelease
   extends Struct.CollectionTypeSchema {
   collectionName: 'strapi_releases';
@@ -2702,7 +2708,10 @@ declare module '@strapi/strapi' {
       'api::home-serivice.home-serivice': ApiHomeSeriviceHomeSerivice;
       'api::home-service-item.home-service-item': ApiHomeServiceItemHomeServiceItem;
       'api::home.home': ApiHomeHome;
+<<<<<<< HEAD
       'api::insight.insight': ApiInsightInsight;
+=======
+>>>>>>> 413abb67b049dbf1ecffd746e12cc925c2add811
       'api::insightblog.insightblog': ApiInsightblogInsightblog;
       'api::navbar.navbar': ApiNavbarNavbar;
       'api::our-team-page.our-team-page': ApiOurTeamPageOurTeamPage;
@@ -2711,8 +2720,11 @@ declare module '@strapi/strapi' {
       'api::service-page.service-page': ApiServicePageServicePage;
       'api::service.service': ApiServiceService;
       'api::testimonial.testimonial': ApiTestimonialTestimonial;
+<<<<<<< HEAD
       'api::testimonials-section.testimonials-section': ApiTestimonialsSectionTestimonialsSection;
       'api::worldwide-impact.worldwide-impact': ApiWorldwideImpactWorldwideImpact;
+=======
+>>>>>>> 413abb67b049dbf1ecffd746e12cc925c2add811
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;

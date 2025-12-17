@@ -5,7 +5,7 @@ import { clientIcons } from "@/lib/clientIcons";
 
 
 
-const RegionIndustries = ({data}) => {
+const HomeIndustry = ({data}) => {
 
   if(!data)return null
          
@@ -104,4 +104,4 @@ const RegionIndustries = ({data}) => {
   )
 }
 
-export default RegionIndustries
+export default HomeIndustry

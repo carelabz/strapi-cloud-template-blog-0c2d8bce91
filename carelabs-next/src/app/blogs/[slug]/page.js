@@ -24,6 +24,8 @@ export default async function Page({ params }) {
         variables: { slug },
       
       });
+      console.log("Blogs:", response.data.insightblogs[0]);
+      
        blog=response.data.insightblogs[0];   
     }catch(err){
       console.log("Error at Fetching Blog By Slug",err);

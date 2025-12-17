@@ -1,9 +1,9 @@
 import client from "@/lib/appollo-client";
 import { GET_SINGLE_SERVICE_BY_SLUG } from "@/lib/api-Collection";
-import ServicesLanding from "@/components/ServicesLanding";
-import EngineeringServices from "@/components/EngineeringServices";
-import FaqResourcesSection from "@/components/FaqResourcesSection";
-import PowerSystemAnalysisCTA from "@/components/PowerSystemAnalysisCTA";
+import ServicesLanding from "@/components/Services/ServicesLanding";
+import EngineeringServices from "@/components/Services/EngineeringServices";
+import FaqResourcesSection from "@/components/Services/FaqResourcesSection";
+import PowerSystemAnalysisCTA from "@/components/Services/PowerSystemAnalysisCTA";
 import { clientIcons } from "@/lib/clientIcons";
 import { ChevronDown, CircleCheck } from "lucide-react";
 

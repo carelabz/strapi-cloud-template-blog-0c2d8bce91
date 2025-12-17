@@ -38,9 +38,6 @@ export async function generateMetadata() {
   try {
     const homeData = await getHomePageData();
     const seo = homeData?.homeseo;
-
-    console.log("SEO:", seo);
-
     if (!seo) {
       return {
         title: "Carelabz",

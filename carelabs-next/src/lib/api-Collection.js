@@ -1143,29 +1143,7 @@ export const GET_CONTACT_PAGE = gql`
     }
   }`
 
-export const GET_REGION_INDUSTRIES = gql`
-    query ($locale: I18NLocaleCode){
-      homeIndustries(locale:$locale) {
-        badgeicon
-        badge
-        title
-        industry_categories {
-          label
-        }
-        key_industries {
-          title
-          icon
-          highlight_text
-          highlight_color
-          key_features {
-            label
-          }
-        }
-        locale
-        description
-      }
-    }
- `
+
 export const GET_REGION_CLIENTS_BY_LOCALE = gql`
     query ($locale: I18NLocaleCode){
        homeOurClients(locale:$locale) {
@@ -1284,8 +1262,8 @@ query ($slug: String!, $locale: I18NLocaleCode) {
 // :::::::::::: Optimize Api Calls :::::::::::::::::://
 
 export const GET_HOMEPAGE_DATA = gql`
-  query  {
-  homePage {
+  query ($locale: I18NLocaleCode) {
+  homePage (locale: $locale) {
     documentId
     title
     slug

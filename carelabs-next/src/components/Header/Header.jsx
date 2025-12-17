@@ -18,7 +18,7 @@ const Header = ({navbarData}) => {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isContactModalOpen, setIsContactModalOpen] = useState(false)
-  const [logoUrl, setLogoUrl] = useState("https://striking-pleasure-03fbdffa08.media.strapiapp.com/carelab_logo_7d51f198e5.png");
+  const [logoUrl, setLogoUrl] = useState(null);
 
   const router = useRouter();
   const navigate = useLocalizedNavigate();
@@ -28,9 +28,6 @@ const Header = ({navbarData}) => {
   const activeSubmenu =
     navbarData?.items?.[activeIndex]?.submenus?.[selectedSubmenuIndex];
     const ActiveIcon = activeSubmenu ? clientIcons[activeSubmenu.icon] : null;
-
-    console.log("NavbarData",navbarData);
-    console.log("NavbarItems",navbarData?.items);
 
     const openMobilemenus = () => {
       console.log("TETEE");
@@ -89,15 +86,10 @@ const Header = ({navbarData}) => {
       const isBlogMenu = currentItem?.label === "Insights Hub";
 
       const targetSlug = isBlogMenu
-        ? `/blogs/${currentSubmenu?.slug}`
+        ? `/blogs`
         : `/services/${currentSubmenu?.slug}`;
 
       // const targetSlug ="/ourTeam"
-
-
-      console.log("TargetSlug", targetSlug);
-      console.log("currentSubmenu1", currentSubmenu.slug);
-      // window.location.href=targetSlug;
 
       // Navigate
       navigate(targetSlug);
@@ -109,7 +101,7 @@ const Header = ({navbarData}) => {
 
   return (
     <>
-      <div className="headCvr w-full h-[80px] flex items-center justify-center navbar-shadow fixed z-50 header-background">
+      <div className="headCvr w-full h-[80px] flex items-center justify-center navbar-shadow fixed top-0 z-50 header-background">
         <div className="header w-full  h-full flex items-center justify-between lg:justify-center  2xl:p-3 ">
           <div className="logos  flex items-center justify-center w-[50%] sm:w-[40%] lg:w-[22%]">
             <Link href={currentLocale ? `/${currentLocale}/` : "/"}>

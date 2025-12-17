@@ -1,5 +1,4 @@
 
-import Header from "@/components/Header";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import QuoteBar from "@/components/QuoteBar";
@@ -46,9 +45,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" >
       
-        <body className={`${montserrat.variable} ${poppins.variable} font-sans`}>
-          
-        {/* <Header/> */}
+        <body className={`${montserrat.variable} ${poppins.variable} font-sans`}> 
         <RegionProvider>
           <Navbar/>
            {children}
@@ -56,9 +53,6 @@ export default function RootLayout({ children }) {
         <  Footer/>
         </RegionProvider>
         
-
-
-
         {/* cloudflare */}
      <Script
           src="https://challenges.cloudflare.com/turnstile/v0/api.js"

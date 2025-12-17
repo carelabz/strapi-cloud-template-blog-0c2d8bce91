@@ -1,56 +1,18 @@
-import { GET_REGIONCOMPLIANCE_BY_LOCALE } from '@/lib/api-Collection';
-import client from '@/lib/appollo-client';
-import { useParams } from 'next/navigation'
-import React, { useEffect, useState } from 'react'
 import { clientIcons } from "@/lib/clientIcons";
 
 
-const RegionCompliance = () => {
+const HomeCompliance = ({data}) => {
   
-  const params=useParams();
-  let locale= params.locale;
+  const compliance=data
 
-  if(locale=="CA"||locale=="ca"){
-    locale="en-CA"
-  }else{
-    locale="en"
-  }
-
-  console.log("Local",locale);
-  
-  const [compliance,setCompliance]=useState(null);
-
-  const fetchComplianceByLocale = async()=>{
-    try{
-       const response = await client.query({
-          query:GET_REGIONCOMPLIANCE_BY_LOCALE,
-          variables: {locale },
-        });
-
-        setCompliance(response.data.homeCompliances[0]); 
-    }catch(err){
-       console.log("ERROR at Fetching RegionCompliance in Component",err);
-       
-    }
-
-  }
-
-const getIcon = (name) => {
-  return clientIcons[name?.trim()] || clientIcons.Zap;
-};
+    const getIcon = (name) => {
+     return clientIcons[name?.trim()] || clientIcons.Zap;
+    };
 
 
-  
-
-  useEffect(()=>{
-  fetchComplianceByLocale();
-  },[])
-
-
+    if (!compliance) return null;
+     const BadgeIcon = clientIcons[compliance.badgeicon?.trim()] || clientIcons.Zap;
     
-if (!compliance) return null;
-const BadgeIcon = clientIcons[compliance.badgeicon?.trim()] || clientIcons.Zap;
-  
 
   return (
      <div className='w-full flex flex-col items-center justify-center  mt-40 lg:mt-60'>
@@ -132,4 +94,4 @@ const BadgeIcon = clientIcons[compliance.badgeicon?.trim()] || clientIcons.Zap;
   )
 }
 
-export default RegionCompliance
+export default HomeCompliance

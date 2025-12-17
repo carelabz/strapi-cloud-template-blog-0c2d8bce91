@@ -24,6 +24,10 @@
     "cross-fetch": "^4.1.0",
     "graphql": "^16.12.0",
     "node-fetch": "^2.7.0",
+<<<<<<< HEAD
+=======
+    "nodemailer": "^7.0.11",
+>>>>>>> 413abb67b049dbf1ecffd746e12cc925c2add811
     "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
